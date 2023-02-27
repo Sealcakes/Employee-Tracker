@@ -50,7 +50,25 @@ function init() {
                         init();
                     }
                 })
-        }
+            case 'View All Roles':
+                db.query('SELECT * FROM roles', (err, data) => {
+                    if (err) {
+                        console.error(err);
+                    } else {
+                        console.table(data);
+                        init();
+                    }
+                })
+            case 'View All Employees':
+                db.query('SELECT * FROM employees', (err, data) => {
+                    if (err) {
+                        console.error(err);
+                    } else {
+                        console.table(data);
+                        init();
+                    }
+                })
+        }   
     });
 };
 
