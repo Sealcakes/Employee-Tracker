@@ -22,11 +22,16 @@
   ## Installtion
   ### Upon cloning the repository you will need to first install all the dependencies by running "npm i" in your VS Code terminal, you will then need to login to MySQL in the terminal and run "source db/schema.sql;" to create the database and data tables and then run "source db/seeds.sql;" to populate the tables with the pre-loaded data.  You can also delete the data in the seeds.sql file and populate it with your own companies data if you would prefer before running the "source db/seeds.sql;" command.
 
-  ## Usage
-  ### Please refer to the GIF in this section or the demo video in the links section for usage instructions.
+  ## Images
+  ![IMG](./media/Employee-Tracker-SS1.png)
+  ![IMG](./media/Employee-Tracker-SS2.png)
 
   ## Contributors
   ### Taylor Seal - Sealcakes - https://www.github.com/Sealcakes
+
+  ## Links
+  ### Demo Video
+  https://drive.google.com/file/d/1DwCNKRMVUj_-QztOoZ0F_kS1d8Aa1j_2/view
 
   ## License Information
   ### MIT License
